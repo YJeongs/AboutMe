@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Livvic&display=swap');
 /* 상단바 */
 body {
-    margin: 0;
-    padding: 0;
     height: 100%;
     font-family: 'Livvic', sans-serif;
+    padding-top : 75px;
+    background-color:aliceblue;
 }
 
 .menu-bar {
@@ -23,11 +23,6 @@ body {
 
 .menu-bar p{
     margin-left : 15px;
-}
-
-body {
-    padding-top : 75px;
-    background-color:aliceblue;
 }
 
 .menu{
@@ -62,35 +57,20 @@ nav a:hover {
     margin : 75px;
     display : flex;
     justify-content : center;
+    align-items: center;
 }
 
 .about{
     margin-bottom: 100px;
-    min-height: 100%;
-    position: relative;
-    align-items: center;
-}
-.about .img {
-    margin : 50px;
-    text-align: center;
 }
 
 #profile {
+    margin : 50px;
     border-radius: 50%;
 }
 
-.introduction {
-    margin-top : 50px;
-}
-
-.english {
-    font-family: 'Livvic', sans-serif;
-}
-
-
 /* footer */
 footer {
-    /* position: */
     margin-top: 20px;
     margin-bottom : 20px;
     left : 0;
@@ -99,26 +79,16 @@ footer {
     display : flex;
     justify-content : space-around;
     align-items: center;
-}
-
-
-.contact {
     text-align: center;
-}
-
-.contant img {
-    align-items: center;
 }
 
 /* contact창 */
 .submit {
-    position: absoulte;
     display:flex;
     justify-content: center;
     align-items: center;
     margin: 75px;
 }
-
 .submit h1 {
     font-size : 30px;
 }
@@ -153,11 +123,6 @@ input{
     width: 376px;
 }
 
-#submit{
-    font-weight: bold;
-}
-
-
 /* 이력서 */
 .resume h1{
     margin: 50px;
@@ -175,8 +140,12 @@ input{
     padding : 70px;
     padding-right: 100px;
     padding-left : 100px;
+    min-width : 800px;
     z-index: 1;
     box-shadow: 5px 5px 10px 5px rgb(122, 118, 118);
+}
+.resume-content header {
+    margin : 50px;
 }
 
 .work-experience {
@@ -184,9 +153,6 @@ input{
     margin-bottom : 20px;
     justify-content: space-between;
     align-items:center;
-}
-.work-experience header {
-    margin : 50px;
 }
 
 .education {
@@ -196,16 +162,13 @@ input{
     margin-top : 20px;
 }
 
-.education header {
-    margin : 50px;
-}
-
 .my-resume {
     display: flex;
-    
 }
 
 .my-resume div {
     margin : 20px;
 }
+
+
 
