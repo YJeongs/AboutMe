@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic&display=swap');
+/* 상단바 */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Livvic', sans-serif;
+}
+
+.menu-bar {
+    position: fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+
+    height : 75px;
+    background-color:rgb(152, 193, 247);
+    display : flex;
+    justify-content : space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.menu-bar p{
+    margin-left : 15px;
+}
+
+body {
+    padding-top : 75px;
+    background-color:aliceblue;
+}
+
+.menu{
+    margin : 15px;
+    font-weight: bold;
+}
+
+.index {
+    display : flex;
+}
+
+.click {
+    margin : 5px;
+}
+
+nav ul {
+    list-style-type : none;
+}
+
+nav a {
+    color:black;
+    display: block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 소개글 */
+.main {
+    margin : 75px;
+    display : flex;
+    justify-content : center;
+}
+
+.about{
+    margin-bottom: 100px;
+    min-height: 100%;
+    position: relative;
+    align-items: center;
+}
+.about .img {
+    margin : 50px;
+    text-align: center;
+}
+
+#profile {
+    border-radius: 50%;
+}
+
+.introduction {
+    margin-top : 50px;
+}
+
+.english {
+    font-family: 'Livvic', sans-serif;
+}
+
+
+/* footer */
+footer {
+    /* position: */
+    margin-top: 20px;
+    margin-bottom : 20px;
+    left : 0;
+    width : 100%;
+    height : 75px;
+    display : flex;
+    justify-content : space-around;
+    align-items: center;
+}
+
+
+.contact {
+    text-align: center;
+}
+
+.contant img {
+    align-items: center;
+}
+
+/* contact창 */
+.submit {
+    position: absoulte;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+}
+
+.submit h1 {
+    font-size : 30px;
+}
+
+main {
+    margin-right: 200px;
+}
+
+.name {
+    display: flex;
+}
+
+.first-name {
+    margin-right: 30px;
+}
+
+input{
+    height: 30px;
+    width: 168px;
+}
+
+.information {
+    background-color: white;
+    padding:40px;
+    box-shadow: 5px 5px 10px 5px rgb(158, 149, 149);
+    font-size: 20px;
+    margin: 0;
+}
+
+#content {
+    height: 90px;
+    width: 376px;
+}
+
+#submit{
+    font-weight: bold;
+}
+
+
+/* 이력서 */
+.resume h1{
+    margin: 50px;
+    font-size: 40px;
+}
+
+.resume-main {
+    align-items: center;
+    margin : 50px;
+}
+
+.resume-content {
+    background-color: white;
+    margin : 30px;
+    padding : 70px;
+    padding-right: 100px;
+    padding-left : 100px;
+    z-index: 1;
+    box-shadow: 5px 5px 10px 5px rgb(122, 118, 118);
+}
+
+.work-experience {
+    display: flex;
+    margin-bottom : 20px;
+    justify-content: space-between;
+    align-items:center;
+}
+.work-experience header {
+    margin : 50px;
+}
+
+.education {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top : 20px;
+}
+
+.education header {
+    margin : 50px;
+}
+
+.my-resume {
+    display: flex;
+    
+}
+
+.my-resume div {
+    margin : 20px;
+}
+
