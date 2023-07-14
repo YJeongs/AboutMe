@@ -7,7 +7,7 @@ body {
     background-color:aliceblue;
 }
 
-.menu-bar {
+.menu {
     position: fixed;
     top : 0;
     left : 0;
@@ -21,20 +21,20 @@ body {
     z-index: 1;
 }
 
-.menu-bar p{
-    margin-left : 15px;
+.menu p{
+    padding-left : 15px;
 }
 
-.menu{
+.menu-bar {
     margin : 15px;
     font-weight: bold;
 }
 
-.index {
+.menu-index {
     display : flex;
 }
 
-.click {
+.menu li {
     margin : 5px;
 }
 
@@ -53,18 +53,18 @@ nav a:hover {
 }
 
 /* 소개글 */
-.main {
+.about {
+    margin-bottom: 100px;
+}
+
+.about-main {
     margin : 75px;
     display : flex;
     justify-content : center;
     align-items: center;
 }
 
-.about{
-    margin-bottom: 100px;
-}
-
-#profile {
+.about #profile {
     margin : 50px;
     border-radius: 50%;
 }
@@ -83,18 +83,33 @@ footer {
 }
 
 /* contact창 */
-.submit {
+.contact {
     display:flex;
     justify-content: center;
     align-items: center;
     margin: 75px;
 }
-.submit h1 {
+.contact h1 {
     font-size : 30px;
 }
-
-main {
+.contact-main {
     margin-right: 200px;
+}
+
+.contact-form {
+    background-color: white;
+    padding:40px;
+    box-shadow: 5px 5px 10px 5px rgb(158, 149, 149);
+    font-size: 20px;
+    margin: 0;
+}
+.contact input{
+    height: 30px;
+    width: 168px;
+}
+.contact textarea {
+    height: 90px;
+    width: 376px;
 }
 
 .name {
@@ -103,24 +118,6 @@ main {
 
 .first-name {
     margin-right: 30px;
-}
-
-input{
-    height: 30px;
-    width: 168px;
-}
-
-.information {
-    background-color: white;
-    padding:40px;
-    box-shadow: 5px 5px 10px 5px rgb(158, 149, 149);
-    font-size: 20px;
-    margin: 0;
-}
-
-#content {
-    height: 90px;
-    width: 376px;
 }
 
 /* 이력서 */
