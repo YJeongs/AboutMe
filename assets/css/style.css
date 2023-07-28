@@ -80,9 +80,6 @@ nav a:hover {
     border-radius: 50%;
 }
 
-.about h1 {
-    font-size: 28px;
-}
 /* footer */
 footer {
     margin-top: 20px;
@@ -94,9 +91,6 @@ footer {
     justify-content : space-around;
     align-items: center;
     text-align: center;
-}
-footer h1 {
-    font-size: 18px;
 }
 
 /* contact창 */
